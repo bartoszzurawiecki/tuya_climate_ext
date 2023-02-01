@@ -13,3 +13,5 @@ climate:
     scan_interval: 10
     heater: switch.heater_bedroom
 ```
+
+This component works with Moes BHT-002 (BHT002GA-B/H) and probably with other Tuya based climate devices.
