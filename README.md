@@ -1,1 +1,1 @@
-# tuya_climate_ext
+# Tuya climate platfrom with external heater
