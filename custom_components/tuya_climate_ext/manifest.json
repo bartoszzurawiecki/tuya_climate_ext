@@ -1,0 +1,12 @@
+{
+  "domain": "tuya_climate_ext",
+  "name": "Tuya climate platfrom with external heater",
+  "documentation": "https://github.com/bartoszzurawiecki/tuya_climate_ext",
+  "dependencies": [],
+  "requirements": ["pytuya==7.0.5"],
+  "codeowners": [
+    "@TheSDTM"
+  ],
+  "homeassistant": "0.96.0",
+  "version": "1.0.0"
+}
