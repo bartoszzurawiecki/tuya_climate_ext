@@ -145,6 +145,9 @@ class TuyaClimate(ClimateEntity):
     @property
     def hvac_action(self):
         """Return the current running hvac operation."""
+        if (not self._enabled):
+            asyncio.create_task(self.heater_turn_off())
+            return CURRENT_HVAC_IDLE
         if self._target_temperature is None: 
             asyncio.create_task(self.heater_turn_off())
             return CURRENT_HVAC_IDLE
